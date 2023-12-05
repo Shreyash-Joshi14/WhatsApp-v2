@@ -10,7 +10,8 @@ function Loading() {
       <div>
         <img
           // src={whatsappLogo}
-          src={"https://cdn-icons-png.flaticon.com/512/831/831264.png"}
+          // src={"https://cdn-icons-png.flaticon.com/512/831/831264.png"}
+          src={"https://i.ibb.co/Nt7MZG5/Logo.png"}
           alt="Connect Logo"
           width={200}
           height={200}

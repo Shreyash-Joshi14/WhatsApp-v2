@@ -21,7 +21,8 @@ function Login() {
       <LoginContainer>
         <Logo
           // src={whatsappLogo}
-          src={"https://cdn-icons-png.flaticon.com/512/831/831264.png"}
+          // src={"https://cdn-icons-png.flaticon.com/512/831/831264.png"}
+          src={"https://i.ibb.co/Nt7MZG5/Logo.png"}
           alt="Connect Logo"
         />
         <Button onClick={signIn} variant="outlined">

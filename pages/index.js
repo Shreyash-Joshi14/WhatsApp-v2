@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Whatsapp 2.0</title>
+        <title>Connect</title>
         <meta name="description" content="Generated Shreyash Joshi" />
-        <link rel= "icon" href="/favicon.ico" />
+        <link rel= "icon" href="https://i.ibb.co/Nt7MZG5/Logo.png" />
       </Head>
 
       <Sidebar></Sidebar>
