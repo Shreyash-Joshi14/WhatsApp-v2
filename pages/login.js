@@ -5,7 +5,8 @@ import { signInWithPopup } from "firebase/auth";
 import { auth, provider } from "../firebase";
 
 function Login() {
-  const whatsappLogo = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2042px-WhatsApp.svg.png";
+  // const whatsappLogo =
+  //   "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2042px-WhatsApp.svg.png";
 
   const signIn = () => {
     signInWithPopup(auth, provider).catch(alert);
@@ -18,7 +19,11 @@ function Login() {
       </Head>
 
       <LoginContainer>
-        <Logo src={whatsappLogo} />
+        <Logo
+          // src={whatsappLogo}
+          src={"https://cdn-icons-png.flaticon.com/512/831/831264.png"}
+          alt="Connect Logo"
+        />
         <Button onClick={signIn} variant="outlined">
           Sign in with Google
         </Button>

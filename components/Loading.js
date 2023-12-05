@@ -3,15 +3,15 @@
 import styled from "styled-components";
 
 function Loading() {
-  const whatsappLogo = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2042px-WhatsApp.svg.png";
+  // const whatsappLogo = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2042px-WhatsApp.svg.png";
 
   return (
     <center style={{ display: "grid", placeItems: "center", height: "100vh" }}>
       <div>
         <img
-          src={whatsappLogo}
-          // src={"../public/WhasApp"}
-          alt="Whatsapp Logo"
+          // src={whatsappLogo}
+          src={"https://cdn-icons-png.flaticon.com/512/831/831264.png"}
+          alt="Connect Logo"
           width={200}
           height={200}
         />
